@@ -1,0 +1,87 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4) ;
+    background-color: #000;
+    position:sticky;
+    top:0px;
+    z-index: 10;
+}
+.nav-left .menu-icon{
+    width: 29px;
+    margin-right: 25px;
+}
+.nav-left h2{
+    color: rgb(195, 2, 2);
+    font-size: 30px;
+}
+.nav-left img{
+    width: 60px;
+}
+.nav-middle .search-box{
+    border:1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input{
+    width: 400px;
+    height: 30px;
+    margin: 0;
+    outline: 0;
+    background: transparent;
+}
+input{
+    border: transparent;
+    font-size: 20px;
+}
+.nav-middle .search-box img{
+    width: 30px;
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-right .icon{
+    width: 30px;
+    margin-right: px;
+    color: white;
+}
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+    border: solid white 0.5px;
+}
+.light{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+}
+.light .nav-right .user-icon{
+    border: solid black 0.5px;
+}
+.light .nav-right .icon{
+    color: black;
+}
+@media (max-width:900px) {
+    .menu-icon{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .logo{
+        width: 40px;
+    }
+    .nav-middle .search-box input{
+        width: 200px;
+    }
+    .nav-left h2{
+        display: none;
+    }
+}
+
